@@ -13,9 +13,9 @@
 [image6]: ./write_up_images/training_workspace2.png "Training"
 [video0]: ./write_up_images/video.gif "Final video"
 
-:---:
-![alt text][video0]
-
+<p align="center">
+  <img [video0]>
+</p>
 
 ### Overview
 
