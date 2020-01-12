@@ -14,8 +14,8 @@
 [video0]: ./write_up_images/video.gif "Final video"
 
 <p align="center">
-	<img src="/write_up_images/video.gif" alt="Final video"
-	title="Final video"  />
+	<img src="/write_up_images/video.gif" alt="Video Output"
+	title="Video Output"  />
 </p>
 
 ### Overview
@@ -57,3 +57,10 @@ Nvidia Architecture         | Architecture Used
 :-------------------------:|:-------------------------:|
 ![alt text][image3] |       ![alt text][image4] 
 
+Train were done with 9549 samples, while validation were done with 2388 samples: a splitting of 80%-20% was the choice for creating trainig and validation data sets.
+
+
+<p align="center">
+	<img src=[image5] alt="Training the model"
+	title="Training the model"  />
+</p>
