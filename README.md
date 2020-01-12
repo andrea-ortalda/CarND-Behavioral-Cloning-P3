@@ -32,7 +32,7 @@ The project contains five subitted files:
 
 
 ### The Project
----
+
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior 
 * Design, train and validate a model that predicts a steering angle from image data.
@@ -61,6 +61,6 @@ Train were done with 9549 samples, while validation were done with 2388 samples:
 
 
 <p align="center">
-	<img src=[image5] alt="Training the model"
+	<img src="[image5]" alt="Training the model"
 	title="Training the model"  />
 </p>
