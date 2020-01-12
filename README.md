@@ -14,9 +14,9 @@
 [video0]: ./write_up_images/video.gif "Final video"
 
 <p align="center">
-  <img /[video0]>
+	<img src="/write_up_images/video.gif" alt="Final video"
+	title="Final video"  />
 </p>
-
 ### Overview
 
 In this project, kowledge acquired during the course about deep neural networks and convolutional neural networks will be used to clone driving behavior. A model  trained, validated and tested using Keras. The model will output a steering angle to an autonomous vehicle.
