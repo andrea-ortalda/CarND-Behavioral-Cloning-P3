@@ -64,3 +64,8 @@ Train were done with 9549 samples, while validation were done with 2388 samples:
 	<img src="/write_up_images/training_workspace2.png" alt="Training the model"
 	title="Training the model"  />
 </p>
+
+#### 3. Conclusion
+
+The model can drive autonomously through the first track without fatal crashes. Improvements can be done in data collection, driving on other tracks and performing more than 1 lap per direction. In addition, some emergency maneuvers can be added in order to teach the model how to react in corner conditions. 
+
