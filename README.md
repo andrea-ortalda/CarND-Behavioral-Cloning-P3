@@ -13,6 +13,9 @@
 [image6]: ./write_up_images/training_workspace2.png "Training"
 [video0]: ./write_up_images/video.gif "Final video"
 
+:-------------------------:
+![alt text][video0]
+
 
 ### Overview
 
@@ -34,8 +37,6 @@ The goals / steps of this project are the following:
 * Design, train and validate a model that predicts a steering angle from image data
 * Use the model to drive the vehicle autonomously around the first track in the simulator.
 * Summarize the results with a written report
-
-![alt text][video0]
 
 ### Dependencies
 This lab requires:
