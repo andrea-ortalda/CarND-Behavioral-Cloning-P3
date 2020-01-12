@@ -61,6 +61,6 @@ Train were done with 9549 samples, while validation were done with 2388 samples:
 
 
 <p align="center">
-	<img src="[image5]" alt="Training the model"
+	<img src="/write_up_images/training_workspace2.png" alt="Training the model"
 	title="Training the model"  />
 </p>
