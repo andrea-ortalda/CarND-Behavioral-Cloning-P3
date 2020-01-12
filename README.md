@@ -2,40 +2,40 @@
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-Overview
----
-This repository contains starting files for the Behavioral Cloning Project.
+[//]: # (Image References)
 
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior. You will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.
+[image0]: ./write_up_images/center.png "Center Camera Image"
+[image1]: ./write_up_images/left.png "Left Camera Image"
+[image2]: ./write_up_images/right.png "Right Camera Image"
+[image3]: ./write_up_images/nvidia.png "Nvidia Architecture"
+[image4]: ./write_up_images/architecture.png "Architecture Used"
+[image5]: ./write_up_images/training_workspace1.png "Training 1"
+[image6]: ./write_up_images/training_workspace2.png "Training"
+[video0]: ./video.mp4"
 
-We have provided a simulator where you can steer a car around a track for data collection. You'll use image data and steering angles to train a neural network and then use this model to drive the car autonomously around the track.
 
-We also want you to create a detailed writeup of the project. Check out the [writeup template](https://github.com/udacity/CarND-Behavioral-Cloning-P3/blob/master/writeup_template.md) for this project and use it as a starting point for creating your own writeup. The writeup can be either a markdown file or a pdf document.
+### Overview
 
-To meet specifications, the project will require submitting five files: 
+In this project, kowledge acquired during the course about deep neural networks and convolutional neural networks will be used to clone driving behavior. A model  trained, validated and tested using Keras. The model will output a steering angle to an autonomous vehicle.
+
+
+The project contains five subitted files: 
 * model.py (script used to create and train the model)
-* drive.py (script to drive the car - feel free to modify this file)
+* drive.py (script to drive the car)
 * model.h5 (a trained Keras model)
 * a report writeup file (either markdown or pdf)
-* video.mp4 (a video recording of your vehicle driving autonomously around the track for at least one full lap)
+* video.mp4 (a video recording of the vehicle driving autonomously around the track for at least one full lap)
 
-This README file describes how to output the video in the "Details About Files In This Directory" section.
 
-Creating a Great Writeup
----
-A great writeup should include the [rubric points](https://review.udacity.com/#!/rubrics/432/view) as well as your description of how you addressed each point.  You should include a detailed description of the code used (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
-
-All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :). 
-
-You're not required to use markdown for your writeup.  If you use another method please just submit a pdf of your writeup.
-
-The Project
+### The Project
 ---
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior 
 * Design, train and validate a model that predicts a steering angle from image data
-* Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
+* Use the model to drive the vehicle autonomously around the first track in the simulator.
 * Summarize the results with a written report
+
+![](./video.mp4)
 
 ### Dependencies
 This lab requires:
