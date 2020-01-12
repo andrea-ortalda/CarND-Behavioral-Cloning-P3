@@ -14,7 +14,7 @@
 [video0]: ./write_up_images/video.gif "Final video"
 
 <p align="center">
-  <img [video0]>
+  <img /[video0]>
 </p>
 
 ### Overview
