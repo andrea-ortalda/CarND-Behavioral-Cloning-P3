@@ -11,7 +11,7 @@
 [image4]: ./write_up_images/architecture.png "Architecture Used"
 [image5]: ./write_up_images/training_workspace1.png "Training 1"
 [image6]: ./write_up_images/training_workspace2.png "Training"
-[video0]: ./video.mp4"
+[video0]: ./video.mp4 "Final video"
 
 
 ### Overview
@@ -35,7 +35,7 @@ The goals / steps of this project are the following:
 * Use the model to drive the vehicle autonomously around the first track in the simulator.
 * Summarize the results with a written report
 
-![alt text](video0)
+![alt text][video0]
 
 ### Dependencies
 This lab requires:
