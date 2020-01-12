@@ -35,13 +35,25 @@ The project contains five subitted files:
 ---
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior 
-* Design, train and validate a model that predicts a steering angle from image data
+* Design, train and validate a model that predicts a steering angle from image data.
 * Use the model to drive the vehicle autonomously around the first track in the simulator.
 * Summarize the results with a written report
 
 #### 1. Use the simulator to collect data of good driving behavior 
 
+Data were collected using the Simulator training mode. 2 laps were done: the former clockwise, while the latter counter clock-wise, in order to have a data set as balanced as possible.
+The WASD commands were used.
+
 Left Camera Image           | Center Camera Image             | Right Camera Image
 :-------------------------:|:-------------------------:|:-------------------------:
 ![alt text][image1] |       ![alt text][image0] |      ![alt text][image2] 
+
+#### 2. Design, train and validate a model that predicts a steering angle from image data.
+
+The architecure used in this project follows the structure provided by NVIDIA in thoir article [End to End Learning for Self-Driving Cars](https://arxiv.org/pdf/1604.07316v1.pdf). 
+This architecture was slightly modified with the addition od Dropout layers between Convolutional layers in oder t prevent overfitting.
+
+Nvidia Architecture         | Architecture Used          
+:-------------------------:|:-------------------------:|
+![alt text][image3] |       ![alt text][image4] 
 
